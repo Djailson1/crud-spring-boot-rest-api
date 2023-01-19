@@ -80,7 +80,7 @@ public class GreetingsController {
     	
     	usuarioRepository.deleteById(iduser);
     	 
-    	 return new ResponseEntity<String>("Usuário excluído com sucesso", HttpStatus.OK);
+    	 return new ResponseEntity<String>("Usuário excluído com sucesso!", HttpStatus.OK);
     	 
     }
     
